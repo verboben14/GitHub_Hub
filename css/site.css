@@ -1,0 +1,94 @@
+/* site.css */
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, footer {
+	background-color: lightgray;
+	border: solid 1px black;
+	/*font-family: 'Times New Roman', serif;*/
+}
+
+footer {
+	padding: 10px;
+	border-radius: 3px;
+}
+
+body {
+	font-family: Segoe UI, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: darkgreen; 
+}
+
+header nav {
+	float: right;
+	margin-right: 5px;
+	
+}
+
+header nav li {
+	display: inline;
+	font-size: 12px;
+}
+
+a {
+	color: green;
+}
+
+.bordered-image,
+.bordered-form,
+.bordered-div {
+	border: solid 1px #444;
+	border-radius: 2px;
+}
+
+#main {
+	border: solid 1px #CCC;
+	border-radius: 5px;
+	color: #202020;
+	margin: 20px 0px;
+	padding: 5px;
+}
+
+#results {
+	padding: 2px;
+	width: 600px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.simple-form {
+	padding: 5px;
+	width: 300;
+	display: inline-block;
+	vertical-align: top;
+	/*position: absolute;
+	bottom: 5px;
+	right: 5px;*/
+}
+
+.simple-form label {
+	font-weight: bold;
+}
+
+.simple-form input[type=text],
+.simple-form select,
+.simple-form input[type=password],
+.simple-form textarea {
+	width: 150px;
+}
+
+.simple-form input[type=submit] {
+	background-color: green;
+	color: white;
+	border-radius: 15px;
+	padding: 3px;
+	margin-top: 5px;
+}
+
+.container {
+	width: 989px;
+	margin: 0px auto;
+	background-color: darkgray;
+}
