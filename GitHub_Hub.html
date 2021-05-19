@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<title>GitHub Hub</title>
@@ -23,7 +23,7 @@
 			</header>
 			<section id="main">
 				<p>In this <em>sample site</em>, we'll show a list of GitHub projects and the data about <strong>those projects</strong>.</p>
-				<form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-form simple-form">
+				<form id="gitHubSearchForm" action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-form simple-form">
 					<label for="searchPhrase">Search Phrase:</label>
 					<input type="text" name="searchPhrase" id="searchPhrase"/><br/>
 					<input type="checkbox" name="useStars" id="useStars" checked="true" />
@@ -40,13 +40,15 @@
 					<input type="submit" value="Search"/>
 				</form>
 				<div id="results" class="bordered-div">
-					This is where the results of the search will appear.
+					<button id="toggleButton">Hide</button>
+					<div id="resultList">This is where the results of the search will appear.</div>
 				</div>
 			</section>
 			<footer>
 				&copy; 2021 Verbovszky Bence
 			</footer>
 		</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 		<script type="text/javascript" src="script/index.js"></script>
 	</body>
 </html>

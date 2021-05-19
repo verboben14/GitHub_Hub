@@ -1,4 +1,4 @@
-/* site.css */
+﻿/* site.css */
 html, body {
 	margin: 0px;
 	padding: 0px;
@@ -91,4 +91,13 @@ a {
 	width: 989px;
 	margin: 0px auto;
 	background-color: darkgray;
+}
+
+.result {
+	margin: 5px;
+	border: solid 1px #888;
+}
+
+.result .title {
+	font-weight: bold;
 }
